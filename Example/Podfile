@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'launchdarkly_flutter_client_sdk_Example' do
+  pod 'launchdarkly_flutter_client_sdk', :path => '../'
+
+  target 'launchdarkly_flutter_client_sdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
